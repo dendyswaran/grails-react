@@ -1,0 +1,10 @@
+<plugin name='jsx-asset-pipeline' version='0.12.0.0' grailsVersion='2.3 &gt; *'>
+  <author>Luis Arias</author>
+  <authorEmail>luis@balsamiq.com</authorEmail>
+  <title>Jsx Asset Pipeline Plugin</title>
+  <description>Implements JSX to JS compilation in the asset-pipeline plugin.
+</description>
+  <documentation>http://grails.org/plugin/jsx-asset-pipeline</documentation>
+  <type>JsxAssetPipelineGrailsPlugin</type>
+  <resources />
+</plugin>
