@@ -9,14 +9,12 @@ import org.springframework.core.io.Resource
 import grails.converters.JSON
 
 import javax.annotation.PostConstruct
-import javax.script.Invocable;
+import javax.script.Invocable
 import javax.script.ScriptEngineManager
 
-import jdk.nashorn.api.scripting.JSObject;
+import jdk.nashorn.api.scripting.JSObject
 import jdk.nashorn.api.scripting.ScriptObjectMirror
 
-import java.nio.file.Files
-import java.nio.file.Path;
 
 class ReactTagLib implements GrailsApplicationAware {
     static final namespace = "react"
